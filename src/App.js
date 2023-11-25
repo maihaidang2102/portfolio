@@ -21,6 +21,7 @@ import Games from "./components/MiniGame/Games";
 import CaroGame from "./components/MiniGame/Caro";
 import SendEmail from "./components/Tools/SendEmail";
 import Notes from "./components/Tools/Notes";
+import SpellCheck from "./components/Tools/SpellCheck";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -47,6 +48,7 @@ function App() {
           <Route path="/game" element={<Games />} /> 
           <Route path="/sendEmail" element={<SendEmail />} /> 
           <Route path="/note" element={<Notes />} />
+          <Route path="/spell-check" element={<SpellCheck />} />
           <Route path="/caro" element={<CaroGame />} /> 
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>

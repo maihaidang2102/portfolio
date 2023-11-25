@@ -13,7 +13,7 @@ const Games = () => {
   const tools = [
     { name: "Gửi Email Hàng Loạt", nav: "sendEmail" },
     { name: "Ghi Chú", nav: "note" },
-    { name: "Sửa lỗi chính tả", nav: "game3" }
+    { name: "Sửa lỗi chính tả", nav: "spell-check" }
   ];
 
   const [suggestion, setSuggestion] = useState("");
