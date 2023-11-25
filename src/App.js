@@ -20,6 +20,7 @@ import MiniGame from "./components/MiniGame/Caro";
 import Games from "./components/MiniGame/Games";
 import CaroGame from "./components/MiniGame/Caro";
 import SendEmail from "./components/Tools/SendEmail";
+import Notes from "./components/Tools/Notes";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -45,6 +46,7 @@ function App() {
           <Route path="/resume" element={<Resume />} /> 
           <Route path="/game" element={<Games />} /> 
           <Route path="/sendEmail" element={<SendEmail />} /> 
+          <Route path="/note" element={<Notes />} />
           <Route path="/caro" element={<CaroGame />} /> 
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>

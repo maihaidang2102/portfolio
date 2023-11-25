@@ -12,7 +12,7 @@ const Games = () => {
       ];
   const tools = [
     { name: "Gửi Email Hàng Loạt", nav: "sendEmail" },
-    { name: "Game 2", nav: "game2" },
+    { name: "Ghi Chú", nav: "note" },
     { name: "Game 3", nav: "game3" }
   ];
 
